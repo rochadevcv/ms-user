@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: meu-projeto
+  datasource:
+    url: jdbc:postgresql://172.17.0.2:5432/ms-user
+    username: postgres
+    password: mysecretpassword
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+     ddl-auto: update
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO

@@ -2,7 +2,7 @@
 
 Este projeto tem como objetivo demonstrar como utilizar o **RabbitMQ** para gerenciamento de filas de mensagens em uma aplicação Java.
 
-O projeto irá exemplificar a criação de um **produtor** e **consumidor** de mensagens utilizando o RabbitMQ para envio e recebimento de dados entre sistemas. Além disso, o projeto também incorpora outras tecnologias para integração e envio de emails, bem como persistência de dados.
+O projeto irá exemplificar a criação de um **produtor** e **consumidor** de mensagens utilizando o RabbitMQ para envio e recebimento de dados entre sistemas. Além disso, a aplicação segue os princípios de **API REST**, **SOLID** e **Código Limpo**, visando a construção de um código mais organizado, escalável e de fácil manutenção.
 
 ## Tecnologias Utilizadas
 
@@ -13,8 +13,10 @@ O projeto irá exemplificar a criação de um **produtor** e **consumidor** de m
 - **Spring Data JPA**: Para interação com banco de dados utilizando JPA.
 - **Spring Validation**: Para validação de dados na aplicação.
 - **Spring AMQP**: Para integração com o RabbitMQ.
-- **Spring Email**: Para envio de emails (via SMTP).
+- **Spring Email**: Para envio de e-mails (via SMTP).
 - **PostgreSQL**: Banco de dados utilizado para persistência de dados.
 - **CloudAMQP**: Serviço de RabbitMQ na nuvem.
 - **SMTP Gmail**: Serviço de envio de e-mails através do Gmail.
+- **Aplicação de Clean Code e Princípio SOLID**: Práticas aplicadas no desenvolvimento para garantir a qualidade do código.
+
 
